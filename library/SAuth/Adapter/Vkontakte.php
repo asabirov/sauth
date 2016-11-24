@@ -29,9 +29,9 @@ class SAuth_Adapter_Vkontakte extends SAuth_Adapter_Abstract implements Zend_Aut
         'consumerId'			=> '',
         'consumerSecret'		=> '',
         'callbackUrl'			=> '',
-        'userAuthorizationUrl'	=> 'http://oauth.vkontakte.ru/authorize',
-        'accessTokenUrl'		=> 'https://oauth.vkontakte.ru/access_token',
-        'requestDataUrl'		=> 'https://api.vkontakte.ru/method/users.get',
+        'userAuthorizationUrl'	=> 'http://oauth.vk.com/authorize',
+        'accessTokenUrl'		=> 'https://oauth.vk.com/access_token',
+        'requestDataUrl'		=> 'https://api.vk.com/method/users.get',
         'responseType'			=> self::RESPONSE_TYPE_CODE,
         'scope'					=> array('notify'),
 		
